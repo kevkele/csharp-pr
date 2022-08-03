@@ -16,8 +16,8 @@ namespace OWASP.WebGoat.NET.App_Code
             ProcessStartInfo startInfo = new ProcessStartInfo
             {
                 WorkingDirectory = Settings.RootDir,
-                FileName = "",
-                Arguments = "",
+                FileName = cmd,
+                Arguments = args,
                 UseShellExecute = false,
                 RedirectStandardInput = true,
                 RedirectStandardError = true,
