@@ -95,7 +95,7 @@ namespace OWASP.WebGoat.NET.App_Code
             
         public void Set(string key, string value)
         {
-            _settings[key.ToLower()] = value;
+            _settings[key.ToUpper()] = value;
         }
 
         public void Remove(string key)
